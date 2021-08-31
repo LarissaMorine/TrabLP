@@ -14,6 +14,7 @@ while janela_aberta:
 pygame.quit()
 
 def comeco_do_jogo():
+    print()
     janela = pygame.display.set_mode((500, 418))
     benvindo = pygame.image.load('benvindo2.png')
     pygame.display.set_caption("Bem-vindo ao vai dar namoro")
